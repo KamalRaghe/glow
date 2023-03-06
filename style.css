@@ -1,0 +1,21 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000;
+}
+
+button{
+    background-color: cyan;
+    border: none;
+    width: 200px;
+    height: 100px;
+    font-size: 30px;
+    border-radius: 14px;
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 0 0 100px cyan,0 0 150px cyan;
+}
